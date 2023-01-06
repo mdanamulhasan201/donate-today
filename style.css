@@ -4,6 +4,7 @@
     box-sizing: border-boxs;
     font-family: "Open Sans", sans-serif;
     
+    
 }
 
 .container{
@@ -50,6 +51,9 @@
 .donate-btn:hover{
     background-color: rgb(195, 73, 39);
 }
+
+
+
 /* Donate Today*/
 
 .donate-today{
@@ -96,10 +100,116 @@
     
 }
 
-.other-amount{
-    font-weight: 400;
-    font-size: 18px;
-    color: #B3B3B3;
+.donate-amount{
+   margin-top: 20px;
+   margin-bottom: 10px;
+   padding: 20px;
+   text-align: center;
+}
+
+.other-amount-form{
+    padding-left: 550px;
     margin-top: 60px;
+    
+}
+
+.other-amount-form input[type=text]{
+    width: 700px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #bebcbc;
+    font-size: larger;
+    color: #707070;
+    
+   
+}
+.btn{
+    margin-right: 550px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* Our Donate Plan */
+.donate-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 230px;
+    text-align: center;
+}
+.section{
+    text-align: center;
+}
+.donate-titles{
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+.plan-section{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    width: 800px;
+    height: 350px;
+    margin-top: 50px;
+   
+}
+.img-icon{
+    margin-top: 63px;
+    width: 58.13px;
+    height: 49.77px;
+    margin-bottom: 31px;
+    padding-left: 23px;
+}
+.plan1{
+    text-align: left;
+    padding: 10px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.plan1:hover{
+    background-color:  rgba(12, 49, 54, 0.1);
+    border: 1px solid #FF5959;
+}
+.plan2{
+    text-align: left;
+    padding: 10px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+
+.plan2:hover{
+    background-color: rgba(116, 12, 12, 0.1);
+    border: 1px solid #FF5959;
+}
+.plan3{
+    text-align: left;
+    padding: 10px;
+    background:rgb(255,244,214);
+    border-radius: 5px;
+}
+
+.plan3:hover{
+    background:rgba(121, 113, 100, 0.1);
+    border: 1px solid #FF5959;
+}
+
+.plan-title{
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 23px;
+    margin-bottom: 16px;
+}
+
+.plan-description{
+    padding-left: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
     
 }
